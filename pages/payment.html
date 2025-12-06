@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оплата</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Sport Store</h1>
+        <nav>
+            <a href="../index.html">Главная</a>
+            <a href="reviews.html">Отзывы</a>
+            <a href="cart.html">Корзина</a>
+            <a href="payment.html">Оплата</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Оплата заказа</h2>
+        <form>
+            <label for="name">Имя владельца карты:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="card">Номер карты:</label>
+            <input type="text" id="card" name="card" required>
+
+            <label for="expiry">Срок действия:</label>
+            <input type="text" id="expiry" name="expiry" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <button type="submit">Оплатить</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2025 Sport Store</p>
+    </footer>
+</body>
+</html>
